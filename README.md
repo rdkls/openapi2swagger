@@ -1,7 +1,19 @@
 # openapi2swagger
 
-![logo](https://github.com/juan-lb/openapi2swagger/blob/master/docs/logo.png?raw=true)
+Easy way to convert OpenAPI v3 spec to v2
 
+You may want to do this for using something that only supports v2 e.g. Postman, Restlet
+
+## Quick usage
+
+`docker run --rm -v $PWD:/tmp -e OPENAPI_FILE=swagger.yml rdkls/openapi2swagger > swagger.openapiv2.yml`
+
+using [docker hub automated build](https://hub.docker.com/r/rdkls/openapi2swagger/)
+
+
+## The rest from juan-lb :)
+
+![logo](https://github.com/juan-lb/openapi2swagger/blob/master/docs/logo.png?raw=true)
 
 Amazon AWS API Gateway claims that is compatible with Swagger.
 I don't think so, just the Swagger format version 2 it is supported.
